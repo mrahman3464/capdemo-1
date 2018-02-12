@@ -2,7 +2,6 @@ package com.capdemo.domain;
 
 import java.util.Date;
 
-<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,16 +16,11 @@ public class Appointment {
 
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO)
-=======
-public class Appointment {
-
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	private Long id;
     private Date date;
     private String location;
     private String description;
     private boolean confirmed;
-<<<<<<< HEAD
     
     @ManyToOne
     @JoinColumn(name="user_id")
@@ -35,9 +29,6 @@ public class Appointment {
     
     
     
-=======
-    private User user;
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	public Long getId() {
 		return id;
 	}
@@ -74,7 +65,6 @@ public class Appointment {
 	public void setUser(User user) {
 		this.user = user;
 	}
-<<<<<<< HEAD
 	
 	
 	
@@ -89,9 +79,6 @@ public class Appointment {
 	
 	
 	
-=======
-    
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	
 	
 	

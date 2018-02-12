@@ -1,6 +1,5 @@
 package com.capdemo.domain;
 
-<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,17 +14,12 @@ public class Recipient {
 
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO) 
-=======
-public class Recipient {
-
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	private Long id;
     private String name;
     private String email;
     private String phone;
     private String accountNumber;
     private String description;
-<<<<<<< HEAD
     
     @ManyToOne
     @JoinColumn(name = "user_id")
@@ -34,9 +28,6 @@ public class Recipient {
     
     
     
-=======
-    private User user;
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	public Long getId() {
 		return id;
 	}

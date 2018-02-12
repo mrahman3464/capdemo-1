@@ -3,7 +3,6 @@ package com.capdemo.domain;
 import java.math.BigDecimal;
 import java.util.Date;
 
-<<<<<<< HEAD
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,10 +16,6 @@ public class PrimaryTransaction {
 
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO)
-=======
-public class PrimaryTransaction {
-
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	private Long id;
     private Date date;
     private String description;
@@ -28,12 +23,9 @@ public class PrimaryTransaction {
     private String status;
     private double amount;
     private BigDecimal availableBalance;
-<<<<<<< HEAD
     
     @ManyToOne
     @JoinColumn(name = "primary_account_id")
-=======
->>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
     private PrimaryAccount primaryAccount;
    
     public PrimaryTransaction() {}
