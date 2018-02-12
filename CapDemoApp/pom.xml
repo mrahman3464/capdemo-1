@@ -5,7 +5,11 @@
 
 	<groupId>com.capDemo</groupId>
 	<artifactId>capDemo</artifactId>
+<<<<<<< HEAD
 	<!-- <version>0.0.1-SNAPSHOT</version> -->
+=======
+	<version>0.0.1-SNAPSHOT</version>
+>>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	<packaging>war</packaging>
 
 	<name>CapDemoApp</name>
@@ -28,15 +32,19 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+<<<<<<< HEAD
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+=======
+>>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 
@@ -48,6 +56,9 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+=======
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+>>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 		</dependency>
 
 		<dependency>

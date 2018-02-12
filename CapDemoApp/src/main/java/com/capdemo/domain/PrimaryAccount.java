@@ -3,6 +3,7 @@ package com.capdemo.domain;
 import java.math.BigDecimal;
 import java.util.List;
 
+<<<<<<< HEAD
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -29,6 +30,14 @@ public class PrimaryAccount {
     private List<PrimaryTransaction> primaryTransactionList;
     
     
+=======
+public class PrimaryAccount {
+
+	private Long id;
+    private int accountNumber;
+    private BigDecimal accountBalance;
+    private List<PrimaryTransaction> primaryTransactionList;
+>>>>>>> 9d06e21d25eece3da5d0fc05c563236a79f43443
 	public Long getId() {
 		return id;
 	}
