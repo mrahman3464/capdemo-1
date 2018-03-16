@@ -1,0 +1,32 @@
+<acceptance-test-run title="Happy Path" name="Happy Path" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="33261" timestamp="2017-09-13T11:15:43.455-04:00" session-id="50e183e50b4f3b539414427ade9eed9f">
+  <user-story id="simple-web-app" name="Simple Web App" path="WebSheetApp/ApExWebSheet.feature"/>
+  <tags>
+    <tag name="Web sheet app" type="epic"/>
+    <tag name="Simple Web App" type="feature"/>
+    <tag name="Web sheet app/Simple web app" type="feature"/>
+  </tags>
+  <test-group name="Given User navigate to Simple Web Sheet Login Page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="0401afeb9be6a324fdaea39549fd44b8.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="13963">
+      <screenshots>
+        <screenshot image="0401afeb9be6a324fdaea39549fd44b8.png"/>
+      </screenshots>
+      <description>Open log in page</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="17961">
+    <screenshots>
+      <screenshot image="28e85b00f92e801645f2b46119d302b2.png"/>
+      <screenshot image="7d734ab7b83ce8e1900f60ad5fc1feda.png"/>
+    </screenshots>
+    <description>When User Sing In with Valid user name and valid password</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="627">
+    <screenshots>
+      <screenshot image="7d734ab7b83ce8e1900f60ad5fc1feda.png"/>
+    </screenshots>
+    <description>Then User do some administrative work on Dashbord</description>
+  </test-step>
+</acceptance-test-run>

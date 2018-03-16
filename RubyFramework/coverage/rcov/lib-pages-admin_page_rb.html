@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <title>lib/pages/admin_page.rb</title>
+    <link href="./assets/0.2.3/screen.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="./assets/0.2.3/print.css" media="print" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <script type="text/javascript" src="./assets/0.2.3/rcov.js"></script>
+  </head>
+  <body>
+    <h1>Rubyframework C0 Coverage Information - Simploco - RCov</h1>
+    <h2>lib/pages/admin_page.rb</h2>
+
+    <div class="report_table_wrapper">
+      <table class='report' id='report_table'>
+        <thead>
+          <tr>
+            <th class="left_align">Name</th>
+            <th class="right_align">Total Lines</th>
+            <th class="right_align">Lines of Code</th>
+            <th class="left_align">Total Coverage</th>
+            <th class="left_align">Code Coverage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="left_align"><a href="lib-pages-admin_page_rb.html">lib/pages/admin_page.rb</a></td>
+            <td class='right_align'><tt>109</tt></td>
+            <td class='right_align'><tt>48</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>56.88%</tt></div>
+      <div class="percent_graph">
+        <div class="covered" style="width:57px"></div>
+        <div class="uncovered" style="width:43px"></div>
+      </div></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>2.08%</tt></div>
+      <div class="percent_graph">
+        <div class="covered" style="width:2px"></div>
+        <div class="uncovered" style="width:98px"></div>
+      </div></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Key</h3>
+
+    <div class="key"><pre><span class='marked'>Code reported as executed by Ruby looks like this...</span><span class='marked1'>and this: this line is also marked as covered.</span><span class='inferred'>Lines considered as run by rcov, but not reported by Ruby, look like this,</span><span class='inferred1'>and this: these lines were inferred by rcov (using simple heuristics).</span><span class='uncovered'>Finally, here's a line marked as not executed.</span></pre></div>
+
+    <h3>Coverage Details</h3>
+
+    <table class="details">
+      <tbody>
+        <tr class="marked">
+          <td><pre><a name="line2">2</a> class AdminPage&lt;GenericBasePage</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line3">3</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line4">4</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line5">5</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line6">6</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line7">7</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line8">8</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line9">9</a>   element(:new_user) {|b| b.button(text:&quot;New User&quot;)}                                  #New User</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line10">10</a>   #----------New Users Info---------------------------------------------------------------------------</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line11">11</a>   #element(:first_name) {|b| b.input(id:&#39;inputFirstName&#39;)}                        #First Name</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line12">12</a>   element(:middle_name) {|b| b.text_field(text:&quot;inputMiddleName&quot;)}                    #Middle Name</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line13">13</a>   element(:first_name) {|b| b.text_field(text:&quot;inputLastName&quot;)}                       #Last name</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line14">14</a>   element(:user_name) {|b| b.text_field(text:&quot;inputUsername&quot;)}                        #User Name</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line15">15</a>   element(:password) {|b| b.text_field(text:&quot;inputPassword&quot;)}                         #Password</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line16">16</a>   element(:save_button) {|b| b.button(text:&quot;Save&quot;)}                                  #Save Button</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line17">17</a> #----------Edit----------------------------------------------------------------------------------------</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line18">18</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line19">19</a>   element(:edit_button) {|b| b.links(text:&quot;edit&quot;)}                                  #Save Button</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line20">20</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line21">21</a>   #---------Delete Button--------------------------------------------------------------------------</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line22">22</a>   element(:delete_button) {|b| b.button(text:&#39;Delete User&#39;)}                                  #Delete Button</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line23">23</a>   element(:delete_popup_button) {|b| b.button(text:&quot;Delete&quot;)}                                  #Delete Button</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line24">24</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line25">25</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line26">26</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line27">27</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line28">28</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line29">29</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line30">30</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line31">31</a> #-------This method deletes a user from the system--------------------------------------------</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line32">32</a> def click_on_delete_button</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line33">33</a>   sleep 3</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line34">34</a>   delete_button.when_present.click                 #Click on the delete users button</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line35">35</a>   sleep 3</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line36">36</a>   delete_popup_button.when_present.click          #clicks on the delete pop up button</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line37">37</a> end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line38">38</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line39">39</a> #----This method click on the new users button------------------------------------------------</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line40">40</a>   def click_on_new_user_button</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line41">41</a>     new_user.when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line42">42</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line43">43</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line44">44</a> #--------This method fills up new users info-----------------------------------------------</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line45">45</a> def fill_up_new_user_info</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line46">46</a>   p &quot;  -------filling up info for new users-----------------    &quot;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line47">47</a> sleep 2</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line48">48</a>   @browser.input(id:&quot;inputFirstName&quot;).when_present.send_keys [&#39;j&#39;, &#39;a&#39;,&#39;n&#39;,&#39;n&#39;]</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line49">49</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line50">50</a>   @browser.input(id:&quot;inputMiddleName&quot;).when_present.send_keys [ &#39;j&#39;, &#39;a&#39;,&#39;n&#39;,&#39;n&#39;]</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line51">51</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line52">52</a>   @browser.input( id:&quot;inputLastName&quot;).when_present.send_keys [ &#39;j&#39;, &#39;a&#39;,&#39;n&#39;,&#39;n&#39;]</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line53">53</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line54">54</a>   @browser.input(id:&quot;inputUsername&quot;).when_present.send_keys [&#39;j&#39;, &#39;a&#39;,&#39;n&#39;,&#39;n&#39;]</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line55">55</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line56">56</a>   @browser.input(id:&quot;inputPassword&quot;).when_present.send_keys [ &#39;j&#39;, &#39;a&#39;,&#39;n&#39;,&#39;n&#39;]</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line57">57</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line58">58</a>   @browser.button(text:&quot;Save&quot;).when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line59">59</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line60">60</a> sleep 2</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line61">61</a>   p &quot;  ---------Congrates a new users has been created------------------------    &quot;</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line62">62</a>   # middle_name.when_present.set(&quot;Jr&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line63">63</a>   # first_name.when_present.set(&quot;Adam&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line64">64</a>   # user_name.when_present.set(&quot;jhon&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line65">65</a>   # password.when_present.set(&quot;password&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line66">66</a>   # save_button.when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line67">67</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line68">68</a> end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line69">69</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line70">70</a>   def click_on_edit</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line71">71</a> sleep 5</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line72">72</a>     p &#39; XXXXXXX---You are about to edit a user info------XXXXXXXXXXXXXXXXXXXXXX&#39;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line73">73</a>       a = edit_button.last</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line74">74</a>       a.click</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line75">75</a>     p &#39; X------editing just got initiated--------------------------------X &#39;</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line76">76</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line77">77</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line78">78</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line79">79</a> #--------------This method cleans previous info and reinsert new info of the users-------------------</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line80">80</a>   def edit_user_info</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line81">81</a>     p &quot;  -----------User info has been edited successfully---------------------    &quot;</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line82">82</a>     sleep 2</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line83">83</a>     @browser.input(:id =&gt; &quot;inputFirstName&quot;).to_subtype.clear</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line84">84</a>     @browser.input(id:&quot;inputFirstName&quot;).when_present.send_keys [&#39;j&#39;, &#39;a&#39;,&#39;n&#39;,&#39;y&#39;]</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line85">85</a>     @browser.input(:id =&gt; &quot;inputMiddleName&quot;).to_subtype.clear</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line86">86</a>     @browser.input(id:&quot;inputMiddleName&quot;).when_present.send_keys [ &#39;D&#39;, &#39;o&#39;,&#39;p&#39;,&#39;e&#39;]</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line87">87</a>     @browser.input(:id =&gt; &quot;inputLastName&quot;).to_subtype.clear</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line88">88</a>     @browser.input( id:&quot;inputLastName&quot;).when_present.send_keys [ &#39;j&#39;, &#39;o&#39;,&#39;h&#39;,&#39;n&#39;]</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line89">89</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line90">90</a>     @browser.button(text:&quot;Save&quot;).when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line91">91</a> </pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line92">92</a>     sleep 2</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line93">93</a>     p &quot;  -----------User info has been edited successfully---------------------   &quot;</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line94">94</a>     # middle_name.when_present.set(&quot;Jr&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line95">95</a>     # first_name.when_present.set(&quot;Adam&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line96">96</a>     # user_name.when_present.set(&quot;jhon&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line97">97</a>     # password.when_present.set(&quot;password&quot;)</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line98">98</a>     # save_button.when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line99">99</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line100">100</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line101">101</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line102">102</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line103">103</a>   #-----This method clicks on the save button --------------------------------------------</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line104">104</a>   def click_on_save_button</pre></td>
+        </tr>
+        <tr class="uncovered">
+          <td><pre><a name="line105">105</a>     @browser.button(text:&quot;Save&quot;).when_present.click</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line106">106</a>   end</pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line107">107</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line108">108</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line109">109</a> </pre></td>
+        </tr>
+        <tr class="inferred">
+          <td><pre><a name="line110">110</a> end</pre></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Generated on 2018-03-14 00:32:04 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+
+  </body>
+</html>
