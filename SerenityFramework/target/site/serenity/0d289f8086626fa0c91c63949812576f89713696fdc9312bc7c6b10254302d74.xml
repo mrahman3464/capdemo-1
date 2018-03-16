@@ -1,0 +1,26 @@
+<acceptance-test-run title="Log in" name="LogIn" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="14949" timestamp="2018-03-16T11:03:03.307-04:00" session-id="7dd5126c5bcb947fba9f2075958ab4b7">
+  <user-story id="as-a-user-i-should-be-able-to-login-to-the-app-and-perform-different-functionality" name="As a User I should be able to Login to the App and perform Different Functionality" path="OrangeHRM/OrangeHRM.feature"/>
+  <tags>
+    <tag name="Orange hrm" type="epic"/>
+    <tag name="As a User I should be able to Login to the App and perform Different Functionality" type="feature"/>
+    <tag name="Orange hrm/As a user i should be able to login to the app and perform different functionality" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11180">
+    <screenshots>
+      <screenshot image="f5200d8a8eee6519772a1c1f275cbc45.png"/>
+    </screenshots>
+    <description>Given User Navigate to the OrangeHRM login Page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="3180">
+    <screenshots>
+      <screenshot image="8d8666fd885ed2f940114ec28ff36b03.png"/>
+    </screenshots>
+    <description>When User Login to the Application</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="579">
+    <screenshots>
+      <screenshot image="8d8666fd885ed2f940114ec28ff36b03.png"/>
+    </screenshots>
+    <description>Then User Should be able to perform Multiple Task</description>
+  </test-step>
+</acceptance-test-run>

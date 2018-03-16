@@ -60,7 +60,7 @@
           <td><pre><a name="line4">4</a>   def makeDBConnection</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line5">5</a>   $client = Mysql2::Client.new(:host =&gt; &quot;localhost&quot;, :port =&gt;&quot;3306&quot;, :username =&gt; &quot;root&quot;,:password =&gt;&quot;&quot;, :database =&gt;&quot;tech_engineering_college&quot;)</pre></td>
+          <td><pre><a name="line5">5</a>   $client = Mysql2::Client.new(:host =&gt; &quot;localhost&quot;, :port =&gt;&quot;3306&quot;, :username =&gt; &quot;root&quot;,:password =&gt;&quot;&quot;, :database =&gt;&quot;capappdemo&quot;)</pre></td>
         </tr>
         <tr class="uncovered">
           <td><pre><a name="line6">6</a>   puts &quot;Connection SuccesFull&quot;</pre></td>
@@ -75,7 +75,7 @@
           <td><pre><a name="line9">9</a>   def extractEntireTabel</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line10">10</a>   results = $client.query(&quot;SELECT * FROM student_information&quot;)</pre></td>
+          <td><pre><a name="line10">10</a>   results = $client.query(&quot;SELECT * FROM user&quot;)</pre></td>
         </tr>
         <tr class="uncovered">
           <td><pre><a name="line11">11</a>   results.each do |row|</pre></td>
@@ -108,7 +108,7 @@
           <td><pre><a name="line20">20</a>   def printInTabularForm</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line21">21</a>     results = $client.query(&quot;SELECT * FROM student_information&quot;)</pre></td>
+          <td><pre><a name="line21">21</a>     results = $client.query(&quot;SELECT * FROM user&quot;)</pre></td>
         </tr>
         <tr class="uncovered">
           <td><pre><a name="line22">22</a>     headers = results.fields</pre></td>
@@ -138,7 +138,7 @@
           <td><pre><a name="line30">30</a>   def printSymbolizeKey</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line31">31</a>      results = $client.query(&quot;SELECT * FROM student_information&quot;)</pre></td>
+          <td><pre><a name="line31">31</a>      results = $client.query(&quot;SELECT * FROM user&quot;)</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line32">32</a>     # puts results.collect{ |row| &quot;Then the next result was #{row}&quot; }.join(&quot;\n&quot;)</pre></td>
@@ -210,7 +210,7 @@
           <td><pre><a name="line54">54</a>   def printResult</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line55">55</a>     results = $client.query(&quot;SELECT * FROM student_information&quot;)</pre></td>
+          <td><pre><a name="line55">55</a>     results = $client.query(&quot;SELECT * FROM user&quot;)</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line56">56</a> </pre></td>
@@ -222,7 +222,7 @@
           <td><pre><a name="line58">58</a>     results.each do |row|</pre></td>
         </tr>
         <tr class="uncovered">
-          <td><pre><a name="line59">59</a>       puts &quot;#{row[&quot;StudentId&quot;]}\t&quot; + &quot;#{row[&quot;Name&quot;] }\t&quot; + &quot;#{row[&quot;Address&quot;] }\t&quot; + &quot;#{row[&quot;Mobile&quot;]}\t&quot;</pre></td>
+          <td><pre><a name="line59">59</a>       puts &quot;#{row[&quot;user_id&quot;]}\t&quot; + &quot;#{row[&quot;email&quot;] }\t&quot; + &quot;#{row[&quot;first_name&quot;] }\t&quot; + &quot;#{row[&quot;last_name&quot;]}\t&quot;</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line60">60</a>     end</pre></td>
@@ -257,7 +257,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2018-03-15 21:16:43 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2018-03-16 13:31:14 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

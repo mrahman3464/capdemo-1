@@ -34,11 +34,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0.5],
-                ['Pending', 0.5],
+                ['Passing', 0.333333],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  0.666667],
                 ['Compromised Tests',  0],
             ]
         ], {
@@ -68,10 +68,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '50% requirements tested successfully'},
-                {label: '50% requirements untested'},
+                {label: '33.3% requirements tested successfully'},
+                {label: '0% requirements untested'},
                 {label: '0%} requirements failing'},
-                {label: '0%} requirements with errors'},
+                {label: '66.7%} requirements with errors'},
                 {label: '0%} requirements with compromised tests'}
             ]
         });
@@ -164,7 +164,7 @@
             <a href="0272dadd83d6e6ac748d9a947522ca78b8873f5156f9bd38d6a0eb735ee5993b.html"><i class="fa fa-comments-o"></i> Epics</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-09-2017 11:16</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-03-2018 11:05</span>
     <br style="clear:left"/>
 </div>
 
@@ -196,28 +196,28 @@
                                 <body>
                                     <tr>
                                         <td class="summary-leading-column">Epics</td>
+                                        <td>3</td>
+                                        <td>1</td>
                                         <td>2</td>
-                                        <td>1</td>
                                         <td>0</td>
-                                        <td>1</td>
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td class="summary-leading-column">Features</td>
+                                        <td>3</td>
+                                        <td>1</td>
                                         <td>2</td>
-                                        <td>1</td>
                                         <td>0</td>
-                                        <td>1</td>
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
                                 <tr>
                                     <td class="summary-leading-column">Acceptance Criteria (tests)</td>
+                                    <td>3</td>
+                                    <td>1</td>
                                     <td>2</td>
-                                    <td>1</td>
                                     <td>0</td>
-                                    <td>1</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -245,10 +245,10 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>2</td>
-            <td>1 (50%)</td>
+            <td>3</td>
+            <td>1 (33%)</td>
+            <td>2 (67%)</td>
             <td>0 (0%)</td>
-            <td>1 (50%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -261,15 +261,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>2</td>
-            <td>1 (50%)</td>
+            <td>3</td>
+            <td>1 (33%)</td>
+            <td>2 (0%)</td>
             <td>0 (0%)</td>
-            <td>1 (50%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">34 seconds</td>
+                <td colspan="5">4 minutes 9 seconds</td>
         </tr>
         </body>
     </table>
@@ -281,7 +281,7 @@
                 <div id="tabs">
                         <ul>
                                 <li><a href="#tabs-1">
-                                Epics (2)
+                                Epics (3)
                                 </a></li>
                         </ul>
                         <div id="tabs-1" class="capabilities-table">
@@ -329,14 +329,14 @@
             <tbody>
 
 
-                <tr class="test-PENDING requirementRow">
+                <tr class="test-ERROR requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                        <span style="display:none">2</span>
+                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                        <span style="display:none">4</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="PENDING-text requirementRowCell">
+                    <td class="ERROR-text requirementRowCell">
                     <a href="javaScript:void(0)" class="read-more-link">
                     <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -350,9 +350,9 @@
 
                     <td class="greentext highlighted-value requirementRowCell">1</td>
                     <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">1</td>
+                    <td class="bluetext requirementRowCell">0</td>
                     <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">0</td>
+                    <td class="lightorangetext requirementRowCell">1</td>
                     <td class="violettext requirementRowCell">0</td>
                         <td class="greentext highlighted-value requirementRowCell">0</td>
                         <td class="greentext requirementRowCell">0</td>
@@ -373,11 +373,11 @@
 Tests implemented: 1
   - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
-Tests not implemented or not executed: 1
-  - Pending tests: 1 (100% of specified requirements)
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
   - Ignored or skipped tests: 0 (0% of specified requirements)
 
 Requirements specified:     2
@@ -385,20 +385,20 @@ Requirements with no tests: 0
 
 
 Estimated unimplemented tests: 0
-Estimated unimplemented or pending requirements: 100%
+Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%"
                                          style="width: 125px;">
                                         <div class="ignoredbar"
-                                             style="width: 0px;"
+                                             style="width: 125px;"
                                              title="Bug tracker app
 Tests implemented: 1
   - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
-Tests not implemented or not executed: 1
-  - Pending tests: 1 (100% of specified requirements)
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
   - Ignored or skipped tests: 0 (0% of specified requirements)
 
 Requirements specified:     2
@@ -406,19 +406,19 @@ Requirements with no tests: 0
 
 
 Estimated unimplemented tests: 0
-Estimated unimplemented or pending requirements: 100%
+Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                             <div class="compromisedbar"
-                                                 style="width: 0px;"
+                                                 style="width: 125px;"
                                                  title="Bug tracker app
 Tests implemented: 1
   - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
-Tests not implemented or not executed: 1
-  - Pending tests: 1 (100% of specified requirements)
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
   - Ignored or skipped tests: 0 (0% of specified requirements)
 
 Requirements specified:     2
@@ -426,19 +426,19 @@ Requirements with no tests: 0
 
 
 Estimated unimplemented tests: 0
-Estimated unimplemented or pending requirements: 100%
+Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                 <div class="errorbar"
-                                                     style="width: 0px;"
+                                                     style="width: 125px;"
                                                      title="Bug tracker app
 Tests implemented: 1
   - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
-Tests not implemented or not executed: 1
-  - Pending tests: 1 (100% of specified requirements)
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
   - Ignored or skipped tests: 0 (0% of specified requirements)
 
 Requirements specified:     2
@@ -446,7 +446,7 @@ Requirements with no tests: 0
 
 
 Estimated unimplemented tests: 0
-Estimated unimplemented or pending requirements: 100%
+Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                     <div class="failingbar"
                                                          style="width: 0px;"
@@ -454,11 +454,11 @@ Estimated ignored or skipped requirements: 0%">
 Tests implemented: 1
   - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
-Tests not implemented or not executed: 1
-  - Pending tests: 1 (100% of specified requirements)
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
   - Ignored or skipped tests: 0 (0% of specified requirements)
 
 Requirements specified:     2
@@ -466,7 +466,7 @@ Requirements with no tests: 0
 
 
 Estimated unimplemented tests: 0
-Estimated unimplemented or pending requirements: 100%
+Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                         <div class="passingbar"
                                                              style="width: 0px;"
@@ -474,11 +474,11 @@ Estimated ignored or skipped requirements: 0%">
 Tests implemented: 1
   - Passing tests: 0 (0% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
-  - Tests with errors: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
-Tests not implemented or not executed: 1
-  - Pending tests: 1 (100% of specified requirements)
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
   - Ignored or skipped tests: 0 (0% of specified requirements)
 
 Requirements specified:     2
@@ -486,7 +486,7 @@ Requirements with no tests: 0
 
 
 Estimated unimplemented tests: 0
-Estimated unimplemented or pending requirements: 100%
+Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                         </div>
                                                     </div>
@@ -512,9 +512,9 @@ Estimated ignored or skipped requirements: 0%">
                     <a href="javaScript:void(0)" class="read-more-link">
                     <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
-                                href="1b316d3d1bc489d405540380ee123bf3f0d616a71231a4729a798269f14b7dfb.html">Web sheet app</a></span>
+                                href="b773e4d0657e276c6e711b31fa7c715e6250a9a3f1b7414aecad70b95a3e654f.html">Orange hrm</a></span>
 
-                        <div class="requirementNarrative read-more-text">Web sheet app</div>
+                        <div class="requirementNarrative read-more-text">Orange hrm</div>
                     </td>
 
                         <td class="bluetext requirementRowCell">1</td>
@@ -541,7 +541,7 @@ Estimated ignored or skipped requirements: 0%">
                                 </td>
                                 <td width="125px">
                                     <div class="percentagebar"
-                                         title="Web sheet app
+                                         title="Orange hrm
 Tests implemented: 1
   - Passing tests: 1 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
@@ -562,7 +562,7 @@ Estimated ignored or skipped requirements: 0%"
                                          style="width: 125px;">
                                         <div class="ignoredbar"
                                              style="width: 125px;"
-                                             title="Web sheet app
+                                             title="Orange hrm
 Tests implemented: 1
   - Passing tests: 1 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
@@ -582,7 +582,7 @@ Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                             <div class="compromisedbar"
                                                  style="width: 125px;"
-                                                 title="Web sheet app
+                                                 title="Orange hrm
 Tests implemented: 1
   - Passing tests: 1 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
@@ -602,7 +602,7 @@ Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                 <div class="errorbar"
                                                      style="width: 125px;"
-                                                     title="Web sheet app
+                                                     title="Orange hrm
 Tests implemented: 1
   - Passing tests: 1 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
@@ -622,7 +622,7 @@ Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                     <div class="failingbar"
                                                          style="width: 125px;"
-                                                         title="Web sheet app
+                                                         title="Orange hrm
 Tests implemented: 1
   - Passing tests: 1 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
@@ -642,11 +642,183 @@ Estimated unimplemented or pending requirements: 0%
 Estimated ignored or skipped requirements: 0%">
                                                         <div class="passingbar"
                                                              style="width: 125px;"
-                                                             title="Web sheet app
+                                                             title="Orange hrm
 Tests implemented: 1
   - Passing tests: 1 (100% of specified requirements)
   - Failing tests: 0 (0% of specified requirements)
   - Tests with errors: 0 (0% of specified requirements)
+  - Compromised tests 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 0%
+Estimated ignored or skipped requirements: 0%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+
+                <tr class="test-ERROR requirementRow">
+                    <td class="requirementRowCell">
+                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                        <span style="display:none">4</span>
+                    </td>
+                    <td class="cardNumber requirementRowCell"></td>
+
+                    <td class="ERROR-text requirementRowCell">
+                    <a href="javaScript:void(0)" class="read-more-link">
+                    <img src="images/plus.png" height="16"/></a>
+                        <span class="requirementName"><a
+                                href="1b316d3d1bc489d405540380ee123bf3f0d616a71231a4729a798269f14b7dfb.html">Web sheet app</a></span>
+
+                        <div class="requirementNarrative read-more-text">Web sheet app</div>
+                    </td>
+
+                        <td class="bluetext requirementRowCell">1</td>
+
+
+                    <td class="greentext highlighted-value requirementRowCell">1</td>
+                    <td class="greentext requirementRowCell">0</td>
+                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="redtext requirementRowCell">0</td>
+                    <td class="lightorangetext requirementRowCell">1</td>
+                    <td class="violettext requirementRowCell">0</td>
+                        <td class="greentext highlighted-value requirementRowCell">0</td>
+                        <td class="greentext requirementRowCell">0</td>
+                        <td class="bluetext requirementRowCell">0</td>
+                        <td class="redtext requirementRowCell">0</td>
+                        <td class="lightorangetext requirementRowCell">0</td>
+
+                    <td width="125px" class="lightgreentext requirementRowCell">
+
+                        <table>
+                            <tr>
+                                <td width="40px">
+                                    <div class="small">0%</div>
+                                </td>
+                                <td width="125px">
+                                    <div class="percentagebar"
+                                         title="Web sheet app
+Tests implemented: 1
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
+  - Compromised tests 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 0%
+Estimated ignored or skipped requirements: 0%"
+                                         style="width: 125px;">
+                                        <div class="ignoredbar"
+                                             style="width: 125px;"
+                                             title="Web sheet app
+Tests implemented: 1
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
+  - Compromised tests 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 0%
+Estimated ignored or skipped requirements: 0%">
+                                            <div class="compromisedbar"
+                                                 style="width: 125px;"
+                                                 title="Web sheet app
+Tests implemented: 1
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
+  - Compromised tests 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 0%
+Estimated ignored or skipped requirements: 0%">
+                                                <div class="errorbar"
+                                                     style="width: 125px;"
+                                                     title="Web sheet app
+Tests implemented: 1
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
+  - Compromised tests 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 0%
+Estimated ignored or skipped requirements: 0%">
+                                                    <div class="failingbar"
+                                                         style="width: 0px;"
+                                                         title="Web sheet app
+Tests implemented: 1
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
+  - Compromised tests 0 (0% of specified requirements)
+
+Tests not implemented or not executed: 0
+  - Pending tests: 0 (0% of specified requirements)
+  - Ignored or skipped tests: 0 (0% of specified requirements)
+
+Requirements specified:     2
+Requirements with no tests: 0
+
+
+Estimated unimplemented tests: 0
+Estimated unimplemented or pending requirements: 0%
+Estimated ignored or skipped requirements: 0%">
+                                                        <div class="passingbar"
+                                                             style="width: 0px;"
+                                                             title="Web sheet app
+Tests implemented: 1
+  - Passing tests: 0 (0% of specified requirements)
+  - Failing tests: 0 (0% of specified requirements)
+  - Tests with errors: 1 (100% of specified requirements)
   - Compromised tests 0 (0% of specified requirements)
 
 Tests not implemented or not executed: 0
@@ -697,21 +869,38 @@ Estimated ignored or skipped requirements: 0%">
                         </thead>
                         <tbody>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
-                                    <a href="8decf1497badea1336e71c97985870ea76da719de741ed04789504a086c715b3.html" class="ellipsis" title="">
+                                    <a href="0caa1d194368d4f289211122a9272f48c82effa7dbdc2af60b4745d7c33f5481.html" class="ellipsis" title="No such element exception: Timed out after 50 seconds. Element not found">
+                                    Admin Add A new User 
+                                    </a></div>
+                                </td>
+
+                                <td class="lightgreentext">5</td>
+
+
+                                <td class="lightgreentext">123.68</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+                                    <a href="c9f344633037ac951776553e227f3743834b48f1c3a6969a69a9c0c3e3b768bf.html" class="ellipsis" title="No such element exception: Timed out after 50 seconds. Element not found">
                                     Happy Path 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">1</td>
+                                <td class="lightgreentext">4</td>
 
 
-                                <td class="lightgreentext">0.28</td>
+                                <td class="lightgreentext">111.34</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -720,15 +909,15 @@ Estimated ignored or skipped requirements: 0%">
                                     <span style="display:none">SUCCESS</span></td>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
-                                    <a href="c9f344633037ac951776553e227f3743834b48f1c3a6969a69a9c0c3e3b768bf.html" class="ellipsis" title="">
-                                    Happy Path 
+                                    <a href="0d289f8086626fa0c91c63949812576f89713696fdc9312bc7c6b10254302d74.html" class="ellipsis" title="">
+                                    Log in 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">4</td>
+                                <td class="lightgreentext">3</td>
 
 
-                                <td class="lightgreentext">33.26</td>
+                                <td class="lightgreentext">14.95</td>
                             </tr>
                         </tbody>
                     </table>

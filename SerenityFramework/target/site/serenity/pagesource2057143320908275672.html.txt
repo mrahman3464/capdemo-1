@@ -1,0 +1,284 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="x-ua-compatible" content="IE=edge" />
+
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 no-css3"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 no-css3"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8 no-css3"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->  <!--<![endif]-->
+
+	<title>Dashboard</title>
+	<link rel="shortcut icon" href="/i/ws/favicon.ico" />
+<link rel="icon" sizes="16x16" href="/i/ws/favicon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/i/ws/favicon-32x32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/i/ws/favicon-180x180.png" />
+	
+	<link rel="stylesheet" href="/i/app_ui/css/Core.min.css?v=5.1.2.00.09" type="text/css" />
+<link rel="stylesheet" href="/i/app_ui/css/Theme-Standard.min.css?v=5.1.2.00.09" type="text/css" />
+<link rel="stylesheet" href="/i/libraries/jquery-ui/1.10.4/themes/base/jquery-ui.min.css?v=5.1.2.00.09" type="text/css" />
+
+
+
+
+
+
+
+<script type="text/javascript">
+var apex_img_dir = "/i/", htmldb_Img_Dir = apex_img_dir;
+</script>
+<!--[if lt IE 9]><script type="text/javascript" src="/i/libraries/jquery/1.12.3/jquery-1.12.3.min.js?v=5.1.2.00.09"></script><![endif]-->
+<!--[if gte IE 9]><!--><script type="text/javascript" src="/i/libraries/jquery/2.2.3/jquery-2.2.3.min.js?v=5.1.2.00.09"></script><!--<![endif]-->
+<script type="text/javascript" src="/i/libraries/apex/minified/desktop.min.js?v=5.1.2.00.09"></script>
+<script type="text/javascript" src="wwv_flow.js_messages?p_app_id=4900&amp;p_lang=en&amp;p_version=5.1.2.00.09-317383517"></script>
+<script type="text/javascript" src="/i/libraries/apex/minified/legacy.min.js?v=5.1.2.00.09"></script>
+<script type="text/javascript" src="/i/apex_ui/js/minified/builder_all.min.js?v=5.1.2.00.09"></script>
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" />
+	<link rel="stylesheet" href="/i/ws/css/eba_uniframe.css" type="text/css" />
+	<link rel="stylesheet" href="/i/ws/css/ws.css" type="text/css" />
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/i/ws/css/eba_uniframe_ie7.css" type="text/css" />
+	<link rel="stylesheet" href="/i/ws/css/ws_ie7.css" type="text/css" />
+	<![endif]-->
+	<!--[if IE 8]>
+	<link rel="stylesheet" href="/i/ws/css/eba_uniframe_ie8.css" type="text/css" />
+	<link rel="stylesheet" href="/i/ws/css/ws_ie8.css" type="text/css" />
+	<![endif]-->
+	<script src="/i/libraries/apex/actions.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/i/ws/js/ws.js" type="text/javascript" charset="utf-8"></script> 
+</head>
+<body>
+	<!--[if lte IE 8]><div id="outdated-browser">You are using an outdated web browser. For a list of supported browsers, please reference the Oracle Application Express Installation Guide.</div><![endif]-->
+	<form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" novalidate="">
+<input type="hidden" name="p_flow_id" value="4900" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="1" id="pFlowStepId" /><input type="hidden" name="p_instance" value="6658217061054" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="267094321416017117561486778092268206169" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" /><input type="hidden" name="p_reload_on_submit" value="A" id="pReloadOnSubmit" /><input type="hidden" value="267094321416017117561486778092268206169" id="pSalt" /><div class="ebaHeader">  <h1 class="wsHeader"><a href="ws?p=103:5067516:6658217061054">Sample Websheet Application - AnyCo IT Department</a></h1>  <ul>    <li><a href="f?p=4900:37:6658217061054::NO:::">Language</a></li>    <li><a href="javascript:popupURL('f?p=4900:16:6658217061054')">Help</a></li><li><span>cggs<a href="apex_authentication.logout?p_session_id=6658217061054&amp;p_app_id=4900&amp;p_ws_app_id=103" class="logout">Sign out</a></span></li>  </ul></div><span id="APEX_SUCCESS_MESSAGE" data-template-id="9297021464956579_S" class="apex-page-success u-hidden"></span><span id="APEX_ERROR_MESSAGE" data-template-id="9297021464956579_E" class="apex-page-error u-hidden"></span>
+
+<div class="ebaFrame">
+<div class="ebaFrameHeader">
+	<div class="wsToolbar">
+		<div class="wsToolbarLeft">
+<div class="wsMenu" id="wsMenu">
+
+<div id="websheets_menubar" class="a-MenuBar" tabindex="-1" role="menubar"><ul><li id="websheets_menubar_0" class="a-MenuBar-item"><button type="button" role="menuitem" class="a-MenuBar-label" id="websheets_menubar_0i" aria-haspopup="true">View</button><span class="a-Menu-subMenuCol"><span class="a-Icon icon-menu-drop-down"></span></span><div id="websheets_menubar_0m" class="a-Menu a-Menu--top" role="menu" tabindex="-1" style="display:none;"></div></li><li id="websheets_menubar_1" class="a-MenuBar-item"><button type="button" role="menuitem" class="a-MenuBar-label" id="websheets_menubar_1i" tabindex="-1" aria-haspopup="true">Create</button><span class="a-Menu-subMenuCol"><span class="a-Icon icon-menu-drop-down"></span></span><div id="websheets_menubar_1m" class="a-Menu a-Menu--top" role="menu" tabindex="-1" style="display:none;"></div></li><li id="websheets_menubar_2" class="a-MenuBar-item"><button type="button" role="menuitem" class="a-MenuBar-label" id="websheets_menubar_2i" tabindex="-1" aria-haspopup="true">Edit</button><span class="a-Menu-subMenuCol"><span class="a-Icon icon-menu-drop-down"></span></span><div id="websheets_menubar_2m" class="a-Menu a-Menu--top" role="menu" tabindex="-1" style="display:none;"></div></li><li id="websheets_menubar_3" class="a-MenuBar-item"><button type="button" role="menuitem" class="a-MenuBar-label" id="websheets_menubar_3i" tabindex="-1" aria-haspopup="true">Data Grid</button><span class="a-Menu-subMenuCol"><span class="a-Icon icon-menu-drop-down"></span></span><div id="websheets_menubar_3m" class="a-Menu a-Menu--top" role="menu" tabindex="-1" style="display:none;"></div></li><li id="websheets_menubar_4" class="a-MenuBar-item"><button type="button" role="menuitem" class="a-MenuBar-label" id="websheets_menubar_4i" tabindex="-1" aria-haspopup="true">Administration</button><span class="a-Menu-subMenuCol"><span class="a-Icon icon-menu-drop-down"></span></span><div id="websheets_menubar_4m" class="a-Menu a-Menu--top" role="menu" tabindex="-1" style="display:none;"></div></li></ul></div>
+
+</div>
+		</div>
+		<div class="wsToolbarRight">
+<div id="R22912720326182943" class="wsSearch"><table id="apex_layout_22912720326182943" border="0" class="formlayout" role="presentation"><tbody><tr><td nowrap="nowrap" align="right"><label for="P0_SEARCH" id="P0_SEARCH_LABEL" tabindex="999" class="hideMeButHearMe">Search Websheet</label></td><td align="left">
+        <div class="searchbox-plugin">
+          <span class="left"></span>
+          <input type="text" id="P0_SEARCH" value="Search Websheet" />
+          <span class="right"></span>
+        </div>
+</td></tr></tbody></table></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div> <!-- End .wsToolbar -->
+<div class="ebaContentContainer">
+<div class="wsBreadcrumb wsBreadcrumbSubPage" id="wsBreadcrumb">
+<ul class="ws-Breadcrumb">
+<li>
+	<a href="ws?p=103:home:6658217061054">Home <span class="a-Icon icon-right-chevron"></span></a>
+</li>
+<li>
+	<a href="f?p=4900:3:6658217061054::NO:::">Administration <span class="a-Icon icon-right-chevron"></span></a>
+</li>
+<li>
+	<a href="f?p=4900:1:6658217061054::NO:::">Dashboard <span class="a-Icon icon-right-chevron"></span></a>
+</li>
+</ul>
+</div>
+	<div class="ebaContent ebaOneCol">
+
+		<div class="ebaMainCol">
+<div class="wsActionBar wsActionBarOnly" id="R181148802605561554">
+
+
+<div class="wsSmallFormComponent wsSmallFormComponentLeft" id="R108117930940447534">
+
+<table id="apex_layout_108117930940447534" border="0" class="formlayout" role="presentation"><tbody><tr class="rowHighlight"><td nowrap="nowrap" align="left"><label for="P1_TIMEFRAME" id="P1_TIMEFRAME_LABEL" class="wsOptional">Timeframe</label></td><td align="left" valign="middle"><select id="P1_TIMEFRAME" name="P1_TIMEFRAME" class="selectlist apex-item-select" size="1" onchange="apex.submit('P1_TIMEFRAME');"><option value=".000116">10 seconds</option>
+<option value=".000694">1 minute</option>
+<option value=".003472">5 minutes</option>
+<option value=".010417">15 minutes</option>
+<option value=".020833">30 minutes</option>
+<option value=".041667">1 hour</option>
+<option value=".083333">2 hours</option>
+<option value=".125">3 hours</option>
+<option value=".166667">4 hours</option>
+<option value=".25">6 hours</option>
+<option value=".333333">8 hours</option>
+<option value=".5">12 hours</option>
+<option value=".75">18 hours</option>
+<option value="1" selected="selected">1 day</option>
+<option value="2">2 days</option>
+<option value="3">3 days</option>
+<option value="4">4 days</option>
+<option value="5">5 days</option>
+<option value="6">6 days</option>
+<option value="7">1 week</option>
+<option value="14">2 weeks</option>
+<option value="28">4 weeks</option>
+<option value="365">1 year</option>
+</select><button class="a-Button a-Button--noUI a-Button--helpButton js-itemHelp" data-itemhelp="185585314221926524" title="Help Text: Timeframe" tabindex="-1" type="button">
+    <span class="a-Icon icon-help"></span>
+    <span class="u-VisuallyHidden">Help Text: Timeframe</span>
+</button></td></tr></tbody></table>
+
+</div>
+
+<span class="wsActionBarRight">
+<a href="javascript:apex.navigation.redirect('f?p=4900:1:6658217061054::NO:1,RIR::');" class="wsSmallButton" role="button" id="B467407418236734151">Reset</a>
+</span>
+</div><div class="wsSection"> <!-- Begin .wsSection -->
+	<h2><a href="javascript:void(0)" class="wsSectionControl"><img src="/i/f_spacer.gif" alt="Collapse" /></a>
+		Application Details
+		<span>
+			<a href="#" class="wsSectionLink wsTopLink" title="Go to Top"><img src="/i/f_spacer.gif" alt="Go to Top" class="topIcon" /></a>
+		</span>
+	</h2>
+	<div class="wsSectionContent">
+		<div class="wsFormRegion">
+			<ul class="a-AVPList " id="R185579501876856681_report">
+
+<li class="a-AVPList-item">
+  <span class="a-AVPList-label">Name</span>
+  <span class="a-AVPList-value">Sample Websheet - AnyCo IT Department</span>
+</li><li class="a-AVPList-item">
+  <span class="a-AVPList-label">Created By</span>
+  <span class="a-AVPList-value">CGGS</span>
+</li><li class="a-AVPList-item">
+  <span class="a-AVPList-label">Created</span>
+  <span class="a-AVPList-value">5 weeks ago</span>
+</li><li class="a-AVPList-item">
+  <span class="a-AVPList-label">Websheet Pages</span>
+  <span class="a-AVPList-value">6</span>
+</li><li class="a-AVPList-item">
+  <span class="a-AVPList-label">Websheet Datagrids</span>
+  <span class="a-AVPList-value">3</span>
+</li><li class="a-AVPList-item">
+  <span class="a-AVPList-label">Websheet Reports</span>
+  <span class="a-AVPList-value">0</span>
+</li>
+</ul>
+		</div>
+	</div>
+</div><div class="wsSection"> <!-- Begin .wsSection -->
+	<h2><a href="javascript:void(0)" class="wsSectionControl"><img src="/i/f_spacer.gif" alt="Collapse" /></a>
+		Recent Changes
+		<span>
+			<a href="#" class="wsSectionLink wsTopLink" title="Go to Top"><img src="/i/f_spacer.gif" alt="Go to Top" class="topIcon" /></a>
+		</span>
+	</h2>
+	<div class="wsSectionContent">
+		<div class="wsFormRegion">
+			<table class="wsTable wsPortlet" id="R185788025254301476" aria-live="polite">
+<tbody><tr>
+<th><label>CGGS Page: Home</label></th>
+<td>7 days ago</td>
+</tr>
+<tr>
+<th><label>CGGS Data Grid: Systems Maintenance</label></th>
+<td>5 weeks ago</td>
+</tr>
+<tr>
+<th><label>CGGS Data Grid: Projects</label></th>
+<td>5 weeks ago</td>
+</tr>
+<tr>
+<th><label>CGGS Page: Systems</label></th>
+<td>5 weeks ago</td>
+</tr>
+<tr>
+<th><label>CGGS Page: Project Review</label></th>
+<td>5 weeks ago</td>
+</tr>
+<tr>
+<th><label>CGGS Page: Projects</label></th>
+<td>5 weeks ago</td>
+</tr>
+<tr>
+<th><label>CGGS Page: Planned Purchases Review</label></th>
+<td>5 weeks ago</td>
+</tr>
+</tbody></table>
+		</div>
+	</div>
+</div><div class="wsSection"> <!-- Begin .wsSection -->
+	<h2><a href="javascript:void(0)" class="wsSectionControl"><img src="/i/f_spacer.gif" alt="Collapse" /></a>
+		Top Users
+		<span>
+			<a href="#" class="wsSectionLink wsTopLink" title="Go to Top"><img src="/i/f_spacer.gif" alt="Go to Top" class="topIcon" /></a>
+		</span>
+	</h2>
+	<div class="wsSectionContent">
+		<div class="wsFormRegion">
+			<table class="wsTable wsPortlet" id="R185592226389958372" aria-live="polite">
+
+<tbody><tr>
+<th><label>CGGS</label></th>
+<td>61</td>
+</tr>
+<tr>
+<th><label>nobody</label></th>
+<td>15</td>
+</tr>
+</tbody></table>
+		</div>
+	</div>
+</div><div class="wsSection"> <!-- Begin .wsSection -->
+	<h2><a href="javascript:void(0)" class="wsSectionControl"><img src="/i/f_spacer.gif" alt="Collapse" /></a>
+		Top Pages
+		<span>
+			<a href="#" class="wsSectionLink wsTopLink" title="Go to Top"><img src="/i/f_spacer.gif" alt="Go to Top" class="topIcon" /></a>
+		</span>
+	</h2>
+	<div class="wsSectionContent">
+		<div class="wsFormRegion">
+			<table class="wsTable wsPortlet" id="R185694921184931340" aria-live="polite">
+<tbody><tr>
+<th><label>Home</label></th>
+<td>40</td>
+</tr>
+</tbody></table>
+		</div>
+	</div>
+</div>
+		</div>
+		<div class="ebaSideCol">
+<div class="wsSideSection">
+	<h3>About
+		<span>
+		
+		</span>
+	</h3>
+	<p>This page shows information about this application.</p>
+</div>
+		</div>
+	</div> <!-- End .ebaContent -->
+</div> <!-- End .ebaContentContainer -->
+
+</div> <!-- End .ebaFrame -->
+<input type="hidden" id="pPageItemsRowVersion" value="" /><input type="hidden" id="pPageItemsProtected" value="jo7NYg0-ph7ebnmXTf6SOQ" /></form>
+
+
+<script type="text/javascript" src="/i/libraries/apex/minified/widget.report.min.js?v=5.1.2.00.09"></script>
+<script type="text/javascript">
+apex.jQuery( document ).ready( function() {
+(function(){apex.builder.searchBox("P0_SEARCH", "f?p=4900:8000:6658217061054:::RIR:P8000_SEARCH:", "Search Websheet");})();
+(function(){apex.widget.selectList("#P1_TIMEFRAME",{"ajaxIdentifier":"E1cVVF3Aiix7_BpS-Eaw5097s3qUaN6Zy6Ok6GaenS2CtnK6swJdjqeiEexEK5EI"});})();
+(function(){apex.widget.report.init("R185579501876856681",{"styleChecked":"#dddddd","internalRegionId":"185579501876856681"});})();
+(function(){apex.widget.report.init("R185788025254301476",{"styleChecked":"#dddddd","internalRegionId":"185788025254301476"});})();
+(function(){apex.widget.report.init("R185592226389958372",{"styleChecked":"#dddddd","internalRegionId":"185592226389958372"});})();
+(function(){apex.widget.report.init("R185694921184931340",{"styleChecked":"#dddddd","internalRegionId":"185694921184931340"});})();
+
+
+apex.item( 'P1_TIMEFRAME' ).setFocus();
+});</script>
+
+
+</body></html>

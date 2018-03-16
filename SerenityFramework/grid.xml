@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtd">
+<suite name="suit" parallel="tests">
+	<test name="testChrome">
+		<classes>
+			<class name="DockerGrid"/>
+		
+		</classes>
+	
+	
+	</test>
+
+</suite>

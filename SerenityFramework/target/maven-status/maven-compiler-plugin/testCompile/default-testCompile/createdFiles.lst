@@ -1,8 +1,13 @@
 net\serenity\bdd\junit\cucumber\stepDef\WebSheetStepDef.class
 net\serenity\bdd\junit\cucumber\steps\LoginTestSteps.class
+net\serenity\bdd\junit\cucumber\pages\WebAppHomePage.class
+net\serenity\bdd\junit\cucumber\pages\BugTrackerHomePage.class
+net\serenity\bdd\junit\cucumber\stepDef\Hooks.class
+net\serenity\bdd\junit\cucumber\pages\AdminPage.class
+net\serenity\bdd\junit\cucumber\pages\BugTrackerLogInPage.class
 net\serenity\bdd\junit\cucumber\pages\GenericPageObject.class
 net\serenity\bdd\junit\cucumber\stepDef\GenericDeclarationClass.class
 net\serenity\bdd\junit\cucumber\Runner.class
 net\serenity\bdd\junit\cucumber\model\DataGenerator.class
 net\serenity\bdd\junit\cucumber\pages\LoginPage.class
-net\serenity\bdd\junit\cucumber\stepDef\Hooks.class
+net\serenity\bdd\junit\cucumber\stepDef\BugTrackerStepDef.class

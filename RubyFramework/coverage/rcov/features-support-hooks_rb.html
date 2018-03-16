@@ -230,13 +230,13 @@
         <tr class="marked">
           <td><pre><a name="line61">61</a>       if(ENV[&#39;BROWSER&#39;]== &quot;chrome&quot;)</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line62">62</a>         @browser = Watir::Browser.new ENV[&#39;BROWSER&#39;].to_sym,:switches =&gt; %w[--disable-extensions  --ignore-certificate-errors --disable-popup-blocking --disable-translate]</pre></td>
         </tr>
         <tr class="inferred">
           <td><pre><a name="line63">63</a>       else</pre></td>
         </tr>
-        <tr class="uncovered">
+        <tr class="marked">
           <td><pre><a name="line64">64</a>         @browser = Watir::Browser.new ENV[&#39;BROWSER&#39;].to_sym</pre></td>
         </tr>
         <tr class="inferred">
@@ -782,7 +782,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2018-03-15 21:16:43 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2018-03-16 13:31:14 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

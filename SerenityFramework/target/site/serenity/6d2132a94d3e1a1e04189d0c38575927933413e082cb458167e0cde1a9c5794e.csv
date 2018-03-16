@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"BugTracker App","Happy Path","PENDING","2017-09-13T11:15:38.320-04:00","0.0","0.28"
-"Simple Web App","Happy Path","SUCCESS","2017-09-13T11:15:43.455-04:00","0.0","33.26"
+"Bug Tracker App","Admin Add A new User","ERROR","2018-03-16T11:00:54.717-04:00","0.0","123.68"
+"Simple Web App","Happy Path","ERROR","2018-03-16T11:03:19.413-04:00","0.0","111.34"
+"As a User I should be able to Login to the App and perform Different Functionality","Log in","SUCCESS","2018-03-16T11:03:03.307-04:00","0.0","14.95"

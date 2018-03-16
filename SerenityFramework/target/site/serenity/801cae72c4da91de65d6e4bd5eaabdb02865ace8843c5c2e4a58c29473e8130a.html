@@ -40,13 +40,13 @@
             [
                 ['Passing', 0],
                 
-                ['Pending', 1],
+                ['Pending', 0],
                 
                 ['Ignored', 0],
                 
                 ['Failing', 0],
                 
-                ['Errors',  0],
+                ['Errors',  1],
                 ['Compromised',  0]
             ]
         ], {
@@ -78,10 +78,10 @@
             },
             series: [
                 {label: '0 / 1 tests passed' },
-                {label: '1 / 1 tests pending'},
+                {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed'},
-                {label: '0 / 1 errors'},
+                {label: '1 / 1 errors'},
                 {label: '0 / 1 compromised tests'}
             ]
         });
@@ -90,13 +90,13 @@
             [
                 ['Passing', 0],
                 
-                ['Pending', 1],
+                ['Pending', 0],
                 
                 ['Ignored', 0],
                 
                 ['Failing', 0],
                 
-                ['Errors', 0],
+                ['Errors', 1],
                 ['Compromised', 0],
             ]
         ], {
@@ -129,10 +129,10 @@
             },
             series: [
                 {label: '0 / 1 tests passed (0% of all test steps)' },
-                {label: '1 / 1 tests pending'},
+                {label: '0 / 1 tests pending'},
                 {label: '0 / 1 tests not executed'},
                 {label: '0 / 1 tests failed (0% of all test steps)'},
-                {label: '0 / 1 errors (0% of all test steps)'}
+                {label: '1 / 1 errors (1% of all test steps)'}
             ]
         });
 
@@ -178,7 +178,7 @@
 <div id="contenttop">
     <div class="middlebg">
         <span class="breadcrumbs"><a href="index.html">Home</a>
-                > <a href="8c62c2a4c57c0a094bf9ee1f49439f5a5787914983782798499148e0815a6490.html">Bugtracker App</a>
+                > <a href="f5d065bf9e9ca9d7f56f69f1f1d23ca43e32bf3dec6ffb518420fdd00a504df7.html">Bug Tracker App</a>
                 > <a href="f5d065bf9e9ca9d7f56f69f1f1d23ca43e32bf3dec6ffb518420fdd00a504df7.html">Bug Tracker App</a>
                 > Bug Tracker App
         </span>
@@ -204,7 +204,7 @@
             <a href="0272dadd83d6e6ac748d9a947522ca78b8873f5156f9bd38d6a0eb735ee5993b.html"><i class="fa fa-comments-o"></i> Epics</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-09-2017 11:16</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-03-2018 11:05</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -227,17 +227,17 @@
 passed,
                 </span>
                 <span class="test-count">
-                    1
-                        <a href="7423655021c5127773d121648dce1dedd1129ad96e1fe3668fe83151067bc16a.html">pending</a>
-                    ,
+                    0
+pending,
                 </span>
                 <span class="test-count">
                     0
 failed,
                 </span>
                 <span class="test-count">
-                    0
-errors,
+                    1
+                        <a href="6e58220490bee69b4f6ec0d7dfccbd587113c1e4a092d33cb8b5d2bb3f003c43.html">with errors</a>
+                    ,
                 </span>
                 <span class="test-count">
                     0
@@ -297,8 +297,8 @@ skipped
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -313,13 +313,13 @@ skipped
             <td class="summary-leading-column">Total</td>
             <td>1</td>
             <td>0 (0%)</td>
+            <td>1 (0%)</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">0 seconds</td>
+                <td colspan="5">2 minutes 3 seconds</td>
         </tr>
         </body>
     </table>
@@ -342,7 +342,7 @@ skipped
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="PENDING-text ellipsis">
+                        <span class="ERROR-text ellipsis">
                                 <a href="28847e9612268357b1686a8e50079387f43421ec1db0ea9b32a17bf7907d530d.html" title="Bug Tracker App">Bug Tracker App</a>
                         </span>
                     </td>
@@ -355,62 +355,17 @@ skipped
                                 <td width="150px">
                                     <a href="28847e9612268357b1686a8e50079387f43421ec1db0ea9b32a17bf7907d530d.html">
                                         <div class="percentagebar"
-                                             title="1 out of 1 tests (1 steps) pending"
+                                             title="0 out of 1 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 0px;"
+                                                 style="width: 150px;"
                                                  title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 0px;"
+                                                     style="width: 150px;"
                                                      title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 0px;"
-                                                         title="0 out of 1 tests (0 steps) broken">
-                                                        <div class="failingbar"
-                                                             style="width: 0px;"
-                                                             title="0 out of 1 tests (0 steps) failing">
-                                                            <div class="passingbar"
-                                                                 style="width: 0px;"
-                                                                 title="0 out of 1 tests (0 steps) passing">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="1 test">1</span></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="bluetext" class="tag-title">
-                        <span class="PENDING-text ellipsis">
-                                <a href="8c62c2a4c57c0a094bf9ee1f49439f5a5787914983782798499148e0815a6490.html" title="Bugtracker App">Bugtracker App</a>
-                        </span>
-                    </td>
-                    <td width="220px" class="table-figure">
-
-
-                        <table>
-                            <tr>
-                                <td class="related-tag-percentage"><span title="0 out of 1 tests (0 steps) passing">0%</span></td>
-                                <td width="150px">
-                                    <a href="8c62c2a4c57c0a094bf9ee1f49439f5a5787914983782798499148e0815a6490.html">
-                                        <div class="percentagebar"
-                                             title="1 out of 1 tests (1 steps) pending"
-                                             style="width: 150px;">
-                                            <div class="ignoredbar"
-                                                 style="width: 0px;"
-                                                 title="0 out of 1 tests (0 steps) skipped or ignored">
-                                                <div class="compromisedbar"
-                                                     style="width: 0px;"
-                                                     title="0 out of 1 tests (0 steps) compromised">
-                                                    <div class="errorbar"
-                                                         style="width: 0px;"
-                                                         title="0 out of 1 tests (0 steps) broken">
+                                                         style="width: 150px;"
+                                                         title="1 out of 1 tests (5 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 0px;"
                                                              title="0 out of 1 tests (0 steps) failing">
@@ -440,7 +395,7 @@ skipped
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 1) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 5) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -474,8 +429,8 @@ skipped
             <td class="summary-leading-column">Automated</td>
             <td>1</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>1 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -490,13 +445,13 @@ skipped
             <td class="summary-leading-column">Total</td>
             <td>1</td>
             <td>0 (0%)</td>
+            <td>1 (0%)</td>
             <td>0 (0%)</td>
-            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">0 seconds</td>
+                <td colspan="5">2 minutes 3 seconds</td>
         </tr>
         </body>
     </table>
@@ -519,7 +474,7 @@ skipped
             </tr>
                 <tr>
                     <td class="bluetext" class="tag-title">
-                        <span class="PENDING-text ellipsis">
+                        <span class="ERROR-text ellipsis">
                                 <a href="28847e9612268357b1686a8e50079387f43421ec1db0ea9b32a17bf7907d530d.html" title="Bug Tracker App">Bug Tracker App</a>
                         </span>
                     </td>
@@ -532,62 +487,17 @@ skipped
                                 <td width="150px">
                                     <a href="28847e9612268357b1686a8e50079387f43421ec1db0ea9b32a17bf7907d530d.html">
                                         <div class="percentagebar"
-                                             title="1 out of 1 tests (1 steps) pending"
+                                             title="0 out of 1 tests (0 steps) pending"
                                              style="width: 150px;">
                                             <div class="ignoredbar"
-                                                 style="width: 0px;"
+                                                 style="width: 150px;"
                                                  title="0 out of 1 tests (0 steps) skipped or ignored">
                                                 <div class="compromisedbar"
-                                                     style="width: 0px;"
+                                                     style="width: 150px;"
                                                      title="0 out of 1 tests (0 steps) compromised">
                                                     <div class="errorbar"
-                                                         style="width: 0px;"
-                                                         title="0 out of 1 tests (0 steps) broken">
-                                                        <div class="failingbar"
-                                                             style="width: 0px;"
-                                                             title="0 out of 1 tests (0 steps) failing">
-                                                            <div class="passingbar"
-                                                                 style="width: 0px;"
-                                                                 title="0 out of 1 tests (0 steps) passing">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </td>
-                                <td class="related-tag-count"><span class="result-test-count" title="1 test">1</span></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="bluetext" class="tag-title">
-                        <span class="PENDING-text ellipsis">
-                                <a href="8c62c2a4c57c0a094bf9ee1f49439f5a5787914983782798499148e0815a6490.html" title="Bugtracker App">Bugtracker App</a>
-                        </span>
-                    </td>
-                    <td width="220px" class="table-figure">
-
-
-                        <table>
-                            <tr>
-                                <td class="related-tag-percentage"><span title="0 out of 1 tests (0 steps) passing">0%</span></td>
-                                <td width="150px">
-                                    <a href="8c62c2a4c57c0a094bf9ee1f49439f5a5787914983782798499148e0815a6490.html">
-                                        <div class="percentagebar"
-                                             title="1 out of 1 tests (1 steps) pending"
-                                             style="width: 150px;">
-                                            <div class="ignoredbar"
-                                                 style="width: 0px;"
-                                                 title="0 out of 1 tests (0 steps) skipped or ignored">
-                                                <div class="compromisedbar"
-                                                     style="width: 0px;"
-                                                     title="0 out of 1 tests (0 steps) compromised">
-                                                    <div class="errorbar"
-                                                         style="width: 0px;"
-                                                         title="0 out of 1 tests (0 steps) broken">
+                                                         style="width: 150px;"
+                                                         title="1 out of 1 tests (5 steps) broken">
                                                         <div class="failingbar"
                                                              style="width: 0px;"
                                                              title="0 out of 1 tests (0 steps) failing">
@@ -637,21 +547,21 @@ skipped
                         </thead>
                         <tbody>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
-                                    <a href="8decf1497badea1336e71c97985870ea76da719de741ed04789504a086c715b3.html" class="ellipsis" title="">
-                                    Happy Path 
+                                    <a href="0caa1d194368d4f289211122a9272f48c82effa7dbdc2af60b4745d7c33f5481.html" class="ellipsis" title="No such element exception: Timed out after 50 seconds. Element not found">
+                                    Admin Add A new User 
                                     </a></div>
                                 </td>
 
-                                <td class="lightgreentext">1</td>
+                                <td class="lightgreentext">5</td>
 
 
-                                <td class="lightgreentext">0.28</td>
+                                <td class="lightgreentext">123.68</td>
                             </tr>
                         </tbody>
                     </table>

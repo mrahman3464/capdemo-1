@@ -27,15 +27,15 @@
             <td class="left_align"><a href="features-step_definitions-SampleWebApp_rb.html">features/step_definitions/SampleWebApp.rb</a></td>
             <td class='right_align'><tt>31</tt></td>
             <td class='right_align'><tt>15</tt></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>87.10%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>74.19%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:87px"></div>
-        <div class="uncovered" style="width:13px"></div>
+        <div class="covered" style="width:74px"></div>
+        <div class="uncovered" style="width:26px"></div>
       </div></td>
-            <td class="left_align"><div class="percent_graph_legend"><tt class=''>73.33%</tt></div>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>46.67%</tt></div>
       <div class="percent_graph">
-        <div class="covered" style="width:73px"></div>
-        <div class="uncovered" style="width:27px"></div>
+        <div class="covered" style="width:47px"></div>
+        <div class="uncovered" style="width:53px"></div>
       </div></td>
           </tr>
         </tbody>
@@ -104,7 +104,7 @@
         <tr class="marked">
           <td><pre><a name="line19">19</a> Given(/^the client authenticate with username and password$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line20">20</a>   $get_response = RestClient.get(&quot;http://opensource.demo.orangehrmlive.com/&quot;)</pre></td>
         </tr>
         <tr class="inferred">
@@ -122,10 +122,10 @@
         <tr class="marked">
           <td><pre><a name="line25">25</a> Then(/^User verify the response code$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line26">26</a>   expect($get_response.code).to eq(200)</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line27">27</a>   puts &quot;Status Code For the Request:#{$get_response.code}&quot;</pre></td>
         </tr>
         <tr class="inferred">
@@ -137,7 +137,7 @@
         <tr class="marked">
           <td><pre><a name="line30">30</a> Given(/^User Send A Get HTTP Request$/) do</pre></td>
         </tr>
-        <tr class="marked">
+        <tr class="uncovered">
           <td><pre><a name="line31">31</a>   $get_response = RestClient.get(&quot;http://opensource.demo.orangehrmlive.com/&quot;)</pre></td>
         </tr>
         <tr class="inferred">
@@ -146,7 +146,7 @@
       </tbody>
     </table>
 
-    <p>Generated on 2018-03-15 21:16:43 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
+    <p>Generated on 2018-03-16 13:31:14 -0400 with <a href="https://github.com/fguillen/simplecov-rcov">SimpleCov-RCov 0.2.3</a></p>
 
   </body>
 </html>

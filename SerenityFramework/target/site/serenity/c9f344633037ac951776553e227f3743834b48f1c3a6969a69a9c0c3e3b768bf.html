@@ -66,7 +66,7 @@
             <a href="0272dadd83d6e6ac748d9a947522ca78b8873f5156f9bd38d6a0eb735ee5993b.html"><i class="fa fa-comments-o"></i> Epics</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-09-2017 11:16</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-03-2018 11:05</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -105,10 +105,10 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-3x' title='ERROR'></i></span>
                             <span class="test-case-title">
 
-                                <span class="success-color">Happy Path
+                                <span class="error-color">Happy Path
                                     <span class="related-issue-title"></span>
                             </span>
                         </span>
@@ -162,7 +162,7 @@
                         <td width="100" class="SUCCESS-text">
                         </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">14.66s</span></td>
+                    <td width="100"><span class="top-level-step">10.34s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -183,24 +183,24 @@
                         <td width="100" class="SUCCESS-text">
                                 <a href="c9f344633037ac951776553e227f3743834b48f1c3a6969a69a9c0c3e3b768bf_screenshots.html#screenshots?screenshot=0">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="0401afeb9be6a324fdaea39549fd44b8.png"
-                                         href="0401afeb9be6a324fdaea39549fd44b8.png"
+                                    <img src="f5200d8a8eee6519772a1c1f275cbc45.png"
+                                         href="f5200d8a8eee6519772a1c1f275cbc45.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">13.96s</span></td>
+                    <td width="100"><span class="nested-group-step">9.89s</span></td>
                 </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="1"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -208,23 +208,74 @@
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
+                        <td width="100" class="ERROR-text">
                                 <a href="c9f344633037ac951776553e227f3743834b48f1c3a6969a69a9c0c3e3b768bf_screenshots.html#screenshots?screenshot=1">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="28e85b00f92e801645f2b46119d302b2.png"
-                                         href="28e85b00f92e801645f2b46119d302b2.png"
+                                    <img src="f5200d8a8eee6519772a1c1f275cbc45.png"
+                                         href="f5200d8a8eee6519772a1c1f275cbc45.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">17.96s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">100.99s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                  title='No such element exception: Timed out after 50 seconds. Element not found'><pre>No such element exception: Timed out after 50 seconds. Element not found</pre></div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal">
+                        View stack trace
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                org.openqa.selenium.NoSuchElementException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Timed out after 50 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SHAJIB', ip: '192.168.160.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'SHAJIB', ip: '192.168.160.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown</h4>
+                                net.serenity.bdd.junit.cucumber.pages.LoginPage.performLogIn(LoginPage.java
+                                    :29) <br>
+                                net.serenity.bdd.junit.cucumber.stepDef.WebSheetStepDef.user_Sing_In_with_Valid__valid(WebSheetStepDef.java
+                                    :36) <br>
+                                ✽.When User Sing In with Valid user name and valid password(WebSheetApp/ApExWebSheet.feature
+                                    :4) <br>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         <a name="2"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -232,22 +283,15 @@
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="c9f344633037ac951776553e227f3743834b48f1c3a6969a69a9c0c3e3b768bf_screenshots.html#screenshots?screenshot=3">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="7d734ab7b83ce8e1900f60ad5fc1feda.png"
-                                         href="7d734ab7b83ce8e1900f60ad5fc1feda.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="SKIPPED-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.63s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                         <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>33.26s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>111.34s</em></span></td>
                 </tr>
 
             </table>

@@ -1,0 +1,48 @@
+<acceptance-test-run title="Admin Add A new User" name="Admin Add A new User" description="" steps="5" successful="1" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="123677" timestamp="2018-03-16T11:00:54.717-04:00" session-id="4909c84fc46eefc55c3329ab81e4d8b8">
+  <user-story id="bug-tracker-app" name="Bug Tracker App" path="BugTrackerApp/ApExBugTracker.feature"/>
+  <tags>
+    <tag name="Bug tracker app" type="epic"/>
+    <tag name="Bug Tracker App" type="feature"/>
+    <tag name="Bug tracker app/Bug tracker app" type="feature"/>
+  </tags>
+  <test-step result="SUCCESS" duration="19963">
+    <screenshots>
+      <screenshot image="eeb4143e72bd44cb5b463c2701aa3852.png"/>
+    </screenshots>
+    <description>Given User navigate to Bug Tracker App Login Page</description>
+  </test-step>
+  <test-step result="ERROR" duration="102934">
+    <screenshots>
+      <screenshot image="eeb4143e72bd44cb5b463c2701aa3852.png" source="pagesource6511570004324743666.html.txt"/>
+    </screenshots>
+    <description>When User Sing In to Bug tracker with Valid Credentials</description>
+    <error>org.openqa.selenium.NoSuchElementException: Timed out after 50 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown</error>
+    <exception>org.openqa.selenium.NoSuchElementException:Timed out after 50 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SHAJIB&apos;, ip: &apos;192.168.160.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown&#xd;
+[net.serenity.bdd.junit.cucumber.pages.BugTrackerLogInPage.performLogIn(BugTrackerLogInPage.java:36), net.serenity.bdd.junit.cucumber.stepDef.BugTrackerStepDef.user_Sing_In_to_Bug_tracker_with_Valid_Credentials(BugTrackerStepDef.java:22), ✽.When User Sing In to Bug tracker with Valid Credentials(BugTrackerApp/ApExBugTracker.feature:4)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="10">
+    <description>Given User is logged in to the Bug Tracker Application As an Admin</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>When Admin Add A New User</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Then Admin Logout form his account</description>
+  </test-step>
+</acceptance-test-run>

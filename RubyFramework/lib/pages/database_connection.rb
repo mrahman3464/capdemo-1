@@ -1,12 +1,12 @@
 class DatabaseConnection <BasePage
 
   def makeDBConnection
-  $client = Mysql2::Client.new(:host => "localhost", :port =>"3306", :username => "root",:password =>"", :database =>"tech_engineering_college")
+  $client = Mysql2::Client.new(:host => "localhost", :port =>"3306", :username => "root",:password =>"", :database =>"capappdemo")
   puts "Connection SuccesFull"
   end
 
   def extractEntireTabel
-  results = $client.query("SELECT * FROM student_information")
+  results = $client.query("SELECT * FROM user")
   results.each do |row|
     # puts row["StudentId"]
     puts row
@@ -17,7 +17,7 @@ class DatabaseConnection <BasePage
 
 
   def printInTabularForm
-    results = $client.query("SELECT * FROM student_information")
+    results = $client.query("SELECT * FROM user")
     headers = results.fields
     results.each(:as => :array) do |row|
       puts row
@@ -27,7 +27,7 @@ class DatabaseConnection <BasePage
 
 
   def printSymbolizeKey
-     results = $client.query("SELECT * FROM student_information")
+     results = $client.query("SELECT * FROM user")
     # puts results.collect{ |row| "Then the next result was #{row}" }.join("\n")
 
      results.fields do |f|
@@ -51,11 +51,11 @@ class DatabaseConnection <BasePage
 
 
   def printResult
-    results = $client.query("SELECT * FROM student_information")
+    results = $client.query("SELECT * FROM user")
 
 
     results.each do |row|
-      puts "#{row["StudentId"]}\t" + "#{row["Name"] }\t" + "#{row["Address"] }\t" + "#{row["Mobile"]}\t"
+      puts "#{row["user_id"]}\t" + "#{row["email"] }\t" + "#{row["first_name"] }\t" + "#{row["last_name"]}\t"
     end
 
 
